@@ -1,7 +1,7 @@
 ---
 title: "Min Max Seo"
 image: profile.jpg
-resources: resume.pdf
+resources: CV.pdf
 about:
   template: jolla
   image-shape: rounded
@@ -16,3 +16,5 @@ about:
 ---
 
 Welcome to my website. My name is Min (they/them) and I am a 4th-year undergraduate student at the University of Waterloo.
+
+{{< include _CV.pdf >}}
