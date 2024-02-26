@@ -5,7 +5,7 @@ project:
 website:
   title: "Min Max Seo"
   navbar:
-    background: "#00ff91"
+    #background: "#00ff91"
     left:
       - href: index.qmd
         text: Home
@@ -44,7 +44,9 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: journal
+    mainfont: arial
+    fontsize: 1.2rem
     css: styles.css
     toc: true
 
