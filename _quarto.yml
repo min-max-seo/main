@@ -30,8 +30,7 @@ website:
         url: https://twitter.com/min_MAX_Seo
       - icon: instagram
         url: https://www.instagram.com/enby_mathemagician/
-      - icon: share-fill
-        href: https://github.com/min-max-seo/main
+
   page-footer: 
     left: "Copyright 2024, Min Max Seo" 
     right: 
@@ -39,8 +38,6 @@ website:
         href: https://twitter.com/min_MAX_Seo
       - icon: instagram
         url: https://www.instagram.com/enby_mathemagician/
-      - icon: share-fill
-        href: https://github.com/min-max-seo/main
 
 format:
   html:
