@@ -1,6 +1,7 @@
 ---
 title: "Min Max Seo"
 image: profile.jpg
+resources: resume.pdf
 about:
   template: jolla
   image-shape: rounded
@@ -8,7 +9,7 @@ about:
   links:
     - text: Email
       icon: envelope
-      href: mseo011231@gmail.com
+      href: mailto:mseo011231@gmail.com
     - text: CV
       icon: file-earmark-pdf-fill
       href: CV.pdf
