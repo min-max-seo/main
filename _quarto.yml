@@ -5,10 +5,42 @@ project:
 website:
   title: "Min Max Seo"
   navbar:
+    background: "#00ff91"
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - text: "Research"
+        menu:
+          - text: "Reasoning and Decision Making Lab, UW"
+            href: rdml.qmd
+          - text: "Social Development Lab, UW"
+            href: sdl.qmd
+          - text: "Faculty of Education, WLU"
+            href: fac_of_ed.qmd
+      - text: "Projects"
+        menu:
+          - text: "Learning and Teaching of Mathematics"
+            href: learn_and_teach.qmd
+      - blog.qmd
+      - gallery.qmd
+    tools:
+    right:
+      - icon: twitter
+        url: https://twitter.com/min_MAX_Seo
+      - icon: instagram
+        url: https://www.instagram.com/enby_mathemagician/
+      - icon: share-fill
+        href: https://github.com/min-max-seo/main
+  page-footer: 
+    left: "Copyright 2024, Min Max Seo" 
+    right: 
+      - icon: twitter 
+        href: https://twitter.com/min_MAX_Seo
+      - icon: instagram
+        url: https://www.instagram.com/enby_mathemagician/
+      - icon: share-fill
+        href: https://github.com/min-max-seo/main
 
 format:
   html:

@@ -2,10 +2,4 @@
 title: "Min Max Seo"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+Welcome to my website. My name is Min (they/them) and I am a 4th-year undergraduate student at the University of Waterloo.

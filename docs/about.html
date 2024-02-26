@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -130,6 +96,61 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./rdml.html">
+ <span class="dropdown-text">Reasoning and Decision Making Lab, UW</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./sdl.html">
+ <span class="dropdown-text">Social Development Lab, UW</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./fac_of_ed.html">
+ <span class="dropdown-text">Faculty of Education, WLU</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="./learn_and_teach.html">
+ <span class="dropdown-text">Learning and Teaching of Mathematics</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./gallery.html"> 
+<span class="menu-text">Gallery</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/min_MAX_Seo"> <i class="bi bi-twitter" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/enby_mathemagician/"> <i class="bi bi-instagram" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/min-max-seo/main"> <i class="bi bi-share-fill" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -142,7 +163,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#i-am-a" id="toc-i-am-a" class="nav-link active" data-scroll-target="#i-am-a">I am a …</a>
+  <ul class="collapse">
+  <li><a href="#math-enthusiast" id="toc-math-enthusiast" class="nav-link" data-scroll-target="#math-enthusiast"><u><strong>Math Enthusiast</strong></u></a></li>
+  <li><a href="#classical-musician" id="toc-classical-musician" class="nav-link" data-scroll-target="#classical-musician"><u><strong>Classical Musician</strong></u></a></li>
+  <li><a href="#harm-reduction-worker" id="toc-harm-reduction-worker" class="nav-link" data-scroll-target="#harm-reduction-worker"><u><strong>Harm-Reduction Worker</strong></u></a></li>
+  <li><a href="#researcher" id="toc-researcher" class="nav-link" data-scroll-target="#researcher"><u><strong>Researcher</strong></u></a></li>
+  <li><a href="#trans-activist" id="toc-trans-activist" class="nav-link" data-scroll-target="#trans-activist"><u><strong>Trans Activist</strong></u></a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -166,15 +200,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<p>About this site</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
-</div>
-</div>
+<section id="i-am-a" class="level1">
+<h1>I am a …</h1>
+<section id="math-enthusiast" class="level3">
+<h3 class="anchored" data-anchor-id="math-enthusiast"><u><strong>Math Enthusiast</strong></u></h3>
+<p>“Math enthusiast” is the term I use to describe myself to my students. I hope to transfer my enthusiasm about math to them; my impression of math is transferable and can help students build positive associations with mathematics.</p>
+</section>
+<section id="classical-musician" class="level3">
+<h3 class="anchored" data-anchor-id="classical-musician"><u><strong>Classical Musician</strong></u></h3>
+<p>I am a classically trained musician; I play the piano, viola, and flute. I am a violist of the University of Waterloo Orchestra. I hope to learn how to play the classical guitar as well.</p>
+</section>
+<section id="harm-reduction-worker" class="level3">
+<h3 class="anchored" data-anchor-id="harm-reduction-worker"><u><strong>Harm-Reduction Worker</strong></u></h3>
+<p>I work as a harm-reduction worker at a local shelter in Waterloo, ON.</p>
+</section>
+<section id="researcher" class="level3">
+<h3 class="anchored" data-anchor-id="researcher"><u><strong>Researcher</strong></u></h3>
+<p>My research interests include</p>
+<ul>
+<li>Designing Accessible K-12 Mathematics Curriculum,</li>
+<li>Reasoning &amp; Decision-Making Processes in Mathematical Learning,</li>
+<li>Examining the Roles of Self-esteem and Self-efficacy of Students in Learning Mathematics,</li>
+<li>Teacher Education: Transferable Impressions of Mathematics, and</li>
+<li>Supporting Students with Various Learning Needs in Mathematics Education.</li>
+</ul>
+<p>This is not an exhaustive list.</p>
+</section>
+<section id="trans-activist" class="level3">
+<h3 class="anchored" data-anchor-id="trans-activist"><u><strong>Trans Activist</strong></u></h3>
+<p>I am a racialized trans/non-binary person. Supporting and advocating for the trans community in various ways are essential parts of my life.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -565,6 +623,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>Copyright 2024, Min Max Seo</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/min_MAX_Seo">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/enby_mathemagician/">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/min-max-seo/main">
+      <i class="bi bi-share-fill" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
 
 
 
