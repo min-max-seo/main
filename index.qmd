@@ -1,7 +1,7 @@
 ---
 title: "Min Max Seo"
 image: profile.jpg
-resources: cv_seo.pdf
+resources: "cv_seo.pdf"
 about:
   template: jolla
   image-shape: rounded
@@ -12,7 +12,7 @@ about:
       href: mailto:mseo011231@gmail.com
     - text: CV
       icon: file-earmark-pdf-fill
-      href: cv_seo.pdf
+      href: "cv_seo.pdf"
 ---
 
 Welcome to my website. My name is Min (they/them) and I am a 4th-year undergraduate student at the University of Waterloo.
