@@ -5,7 +5,6 @@ project:
 website:
   title: "Min Max Seo"
   navbar:
-    #background: "#00ff91"
     left:
       - href: index.qmd
         text: Home
@@ -30,6 +29,8 @@ website:
         url: https://twitter.com/min_MAX_Seo
       - icon: instagram
         url: https://www.instagram.com/enby_mathemagician/
+      - icon: github
+        url: https://github.com/min-max-seo/main
 
   page-footer: 
     left: "Copyright 2024, Min Max Seo" 
@@ -38,6 +39,8 @@ website:
         href: https://twitter.com/min_MAX_Seo
       - icon: instagram
         url: https://www.instagram.com/enby_mathemagician/
+      - icon: github
+        url: https://github.com/min-max-seo/main
 
 format:
   html:
